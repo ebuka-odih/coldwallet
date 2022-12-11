@@ -24,13 +24,13 @@
     <link rel="prefetch" as="font" href="Content/FontAwesome/font/fontellob166.woff2?v=1026954158" type="font/woff2" crossorigin />
     <link href="https://plus.google.com/+Coincornerltd" rel="publisher" />
     <link rel="canonical" href="https://coldwallet.cx/" />
-    <title>Buy Bitcoin with Credit Card and Debit Card - ColdWallet</title>
+    <title>CUSTODIAN WALLET PROVIDER - ColdWallet</title>
     <link rel="amphtml" href="amp.html">
     <meta name="twitter:card" content="summary_large_image" />
-    <meta name="twitter:creator" content="@coincorner" />
-    <meta name="twitter:site" content="@coincorner" />
+    <meta name="twitter:creator" content="@ColdWallet" />
+    <meta name="twitter:site" content="@ColdWallet" />
     <meta property="og:type" content="website" />
-    <meta name="og:title" content="CoinCorner - Buy Bitcoins the easy way" />
+    <meta name="og:title" content="ColdWallet - Buy Bitcoins the easy way" />
     <meta name="og:description" content="The quickest and easiest way to buy, sell and store Bitcoin in the UK and Europe with credit or debit card." />
     <meta name="og:url" content="https://coldwallet.cx/" />
     <meta property="og:image" content="Images/SocialCards/CC-SOCIAL-CARD.jpg" />
@@ -81,12 +81,14 @@
         <div class="md:container m-auto flex flex-mobile justify-center items-center">
             <div class="text-sm md:w-2/3 mb-4 md:mb-0">
                 <p class="mb-4 text-white">This website uses cookies</p>
-                <p class="text-white">We use cookies (sadly not the baked goods variety) to provide you with the best experience on our site. By using CoinCorner, you accept our use of cookies (find out more - <a class="text-cc-icon-blue" href="PrivacyPolicy.html" target="_blank">Privacy Policy</a>)</p>
+                <p class="text-white">We use cookies (sadly not the baked goods variety) to provide you with the best experience on our site. By using ColdWallet, you accept our use of cookies (find out more - <a class="text-cc-icon-blue" href="PrivacyPolicy.html" target="_blank">Privacy Policy</a>)</p>
             </div>
             <button id="accept-cookies" class="btn btn-mallard btn-mobile mx-4">OK</button>
         </div>
     </section>
-    <form action="https://www.coincorner.com/Account/LogOff" class="hidden" id="logoutForm" method="post"><input name="__RequestVerificationToken" type="hidden" value="bvBodkFN7NLmQ6adRyYTAuc-9Ws1xhGjU-fzcQfvrM3i-bw8I9Rgf1YvC-aOAqc_kUYRkl_HJWSHMht4hbWJl6NtcaxElpkUJ8TRDHFy2gs1" /></form> <nav id="nav-main" class="fixed w-screen top-0 left-0 z-10 flex items-center">
+    <form action="https://www.coincorner.com/Account/LogOff" class="hidden" id="logoutForm" method="post">
+        <input name="__RequestVerificationToken" type="hidden" value="bvBodkFN7NLmQ6adRyYTAuc-9Ws1xhGjU-fzcQfvrM3i-bw8I9Rgf1YvC-aOAqc_kUYRkl_HJWSHMht4hbWJl6NtcaxElpkUJ8TRDHFy2gs1" /></form>
+    <nav id="nav-main" class="fixed w-screen top-0 left-0 z-10 flex items-center">
         <section class="md:container flex w-full justify-between md:m-auto mx-4 p-4 md:p-8">
             <a href="{{ route('index') }}" title="Index">
 {{--                <img src="Images/CoinCorner_icon.png" width="30" height="30" class="md:hidden" alt="Buy Bitcoin with CoinCorner - Logo" />--}}
@@ -106,8 +108,8 @@
     <nav id="nav-side" class="w-0 h-full bg-white fixed overflow-x-hidden bottom-0 right-0 md:hidden">
         <section class="m-auto mt-16 p-6">
             <div class="flex flex-col m-auto bg-transparent space-y-2">
-                <a class="btn btn-mallard-border border text-cc-mallard w-full" href="Register.html">Register</a>
-                <a class="btn btn-mallard w-full" href="Login.html">Login</a>
+                <a class="btn btn-mallard-border border text-cc-mallard w-full" href="{{ route('register') }}">Register</a>
+                <a class="btn btn-mallard w-full" href="{{ route('login') }}">Login</a>
             </div>
             <h2 class="mt-12 mb-2 text-lg font-bold">ABOUT</h2>
             <ul class="text-cc-silver space-y-2">
@@ -122,18 +124,19 @@
         <section class="md:container homepage-tab homepage-min m-auto h-full flex items-center flex-wrap">
             <div class="md:flex w-full text-center md:text-left justify-around self-start lg:px-5 md:px-6 px-8 ">
                 <div class="md:w-11/12 md:mt-0 lg:mt-20 w-full">
-                    <h1 class="text-cc-purple font-bold mb-4 md:mt-20 text-5xl">Buy Bitcoin</h1>
-                    <h2 class="md:w-10/12 text-2xl mb-12">ColdWallet makes it quick and easy to buy, sell and store Bitcoin.</h2>
+                    <h1 class="text-cc-purple font-bold mb-4 md:mt-20 text-5xl">Beyond Crypto Custody</h1>
+                    <h3 style="color: black" class="md:w-10/12 text-2xl mb-12">ColdWallet is the insured, FCA registered, user-friendly, segregated custodial wallet platform for institutional-grade security, automation and management of cryptoassets.</h3>
+                    <h3 style="color: black" class="md:w-10/12 text-2xl mb-12">Create unlimited segregated wallets that your customers and investors can verify on-chain.</h3>
                     <div class="hidden md:inline mt-5 w-full md:w-10/12 flex-mobile mt-12">
-                        <a href="register-2.html" class="btn btn-mallard btn-mobile md:w-60">Buy Bitcoin</a>
+                        <a href="{{ route('register') }}" class="btn btn-mallard btn-mobile md:w-60">Buy Bitcoin</a>
                     </div>
                 </div>
                 <div class="sm:inline md:w-10/12 flex justify-center">
-                    <img alt="ColdWallet Mobile App" class="md:w-full mt-10 m-auto" height="541" layout="intrinsic" src="Images/HomePageV3/CC-App-New.png" width="541"></img>
+                    <img alt="ColdWallet Mobile App" class="md:w-full mt-10 m-auto" height="641" layout="intrinsic" src="img/coldwallet.png" width="541"></img>
                 </div>
                 <div class="md:hidden inline w-full md:w-10/12 flex-mobile">
                     <div class="mt-12">
-                        <a href="register-2.html" class="btn btn-mallard btn-mobile md:w-60">Buy Bitcoin</a>
+                        <a href="{{ route('register') }}" class="btn btn-mallard btn-mobile md:w-60">Buy Bitcoin</a>
                     </div>
                 </div>
             </div>
