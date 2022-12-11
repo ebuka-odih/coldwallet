@@ -5,25 +5,28 @@
         <section class="mb-32 mt-32 md:mt-72">
             <div class="">
                 <div class="text-left">
-                    <h1>NEW: The Bolt Card</h1>
-                    <h2 class="pt-4 text-lg md:text-2xl">The Bolt Card is a physical card that you can tap to pay via Lightning in person or on a website on your phone.</h2>
+                    <h3>CRYPTOASSET CUSTODY</h3>
+                    <h1 style="color: black">Solutions</h1>
+                    <h2 class="pt-4 text-lg md:text-2xl">Whether you're an institutional or individual investor, broker, exchange, payment service provider, corporate or token issuer, we speak your language.</h2>
+                    <h2 class="pt-4 text-lg md:text-2xl">Experts in banking, cryptography and fintech, we offer solutions for institutional cryptoassets by safeguarding private keys and administering any digital asset financial transaction through our custodial wallet platform, TrustVault. Use our built-in applications and web services or build your own—Bitpanda Custody works the way you want and need.
+                    </h2>
                 </div>
                 <div class="w-full flex flex-col md:mt-16 md:flex-row md:space-x-8">
                     <div class="my-4 w-full md:w-5/6">
-                        <img alt="The Bolt Card is a physical card that you can use to pay for goods via the Lightning network" height="1177" layout="intrinsic" src="Images/BoltCards/BoltCardLightning.png" width="1765"></img>
+                        <img alt="The Bolt Card is a physical card that you can use to pay for goods via the Lightning network" height="1177" layout="intrinsic" src="img/solution.png" width="1565"></img>
                     </div>
                     <div class="w-full md:w-1/2">
-                        <h3>Features</h3>
+                        <h3>Scope out your solution today</h3>
                         <ul class="mx-8 md:mx-0" id="navlist">
-                            <li><span style="top:-18px; position:relative;" class="text-sm">Lightning payments</span></li>
-                            <li><span style="top:-18px; position:relative;" class="text-sm">NFC/Contactless</span></li>
-                            <li><span style="top:-18px; position:relative;" class="text-sm">Send BTC payments, funded from any currency</span></li>
-                            <li><span style="top:-18px; position:relative;" class="text-sm">Easy setup via CoinCorner app</span></li>
-                            <li><span style="top:-18px; position:relative;" class="text-sm">Use as a Gift Card to give BTC to a friend</span></li>
+                            <li><span style="top:-18px; position:relative;" class="text-sm">Institutional Investors</span></li>
+                            <li><span style="top:-18px; position:relative;" class="text-sm">Service Providers</span></li>
+                            <li><span style="top:-18px; position:relative;" class="text-sm">Token Issuers</span></li>
+                            <li><span style="top:-18px; position:relative;" class="text-sm">Individual Investors</span></li>
+                            <li><span style="top:-18px; position:relative;" class="text-sm">Corporates</span></li>
                         </ul>
                         <div class=" flex flex-col text-center w-full xl:w-9/12 md:mt-24 flex-col">
-                            <a href="BuyTheBoltCard.html" class="btn btn-mallard btn-mobile mb-4">Buy now</a>
-                            <a href="TheBoltCard.html" class="btn btn-mallard-border btn-mobile">How does it work?</a>
+{{--                            <a href="BuyTheBoltCard.html" class="btn btn-mallard btn-mobile mb-4">Buy now</a>--}}
+                            <a href="{{ route('register') }}" class="btn btn-mallard-border btn-mobile">How does it work?</a>
                         </div>
                     </div>
                 </div>

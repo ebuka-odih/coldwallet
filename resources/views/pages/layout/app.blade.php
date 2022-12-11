@@ -144,7 +144,7 @@
                 </div>
                 <div class="md:hidden inline w-full md:w-10/12 flex-mobile">
                     <div class="mt-12">
-                        <a href="{{ route('register') }}" class="btn btn-mallard btn-mobile md:w-60">Buy Bitcoin</a>
+                        <a href="{{ route('register') }}" class="btn btn-mallard btn-mobile md:w-60">Get Started</a>
                     </div>
                 </div>
             </div>
