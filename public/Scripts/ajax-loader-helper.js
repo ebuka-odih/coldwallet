@@ -1,0 +1,2 @@
+function ShowLoader(button,loader){$(button).attr("disabled","disabled");$(loader).show();$(loader).addClass("d-inline");}
+function HideLoader(button,loader){$(button).removeAttr("disabled");$(loader).removeClass("d-inline");$(loader).hide();}
