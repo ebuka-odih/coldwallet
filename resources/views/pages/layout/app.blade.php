@@ -73,6 +73,12 @@
             list-style-image: url('Images/BoltCards/Lightning-Logo.svg');
         }
     </style>
+
+    <style>
+        .text-2xl {
+            font-size: 1.3rem;
+        }
+    </style>
 </head>
 <body>
 
@@ -123,10 +129,12 @@
         <input name="__RequestVerificationToken" type="hidden" value="zRInJkF2N5L0R3IvfuRqdz7fABpecGTBPT0Gd4vjxCppd-bIjlYrP_bqpnyTY8RDwml9o9QYUypXb89yyoDOTQNlx4ks6P8iYhCpHUiuJP81" />
         <section class="md:container homepage-tab homepage-min m-auto h-full flex items-center flex-wrap">
             <div class="md:flex w-full text-center md:text-left justify-around self-start lg:px-5 md:px-6 px-8 ">
-                <div class="md:w-11/12 md:mt-0 lg:mt-20 w-full">
-                    <h1 class="text-cc-purple font-bold mb-4 md:mt-20 text-5xl">Beyond Crypto Custody</h1>
-                    <h3 style="color: black" class="md:w-10/12 text-2xl mb-12">ColdWallet is the insured, FCA registered, user-friendly, segregated custodial wallet platform for institutional-grade security, automation and management of cryptoassets.</h3>
-                    <h3 style="color: black" class="md:w-10/12 text-2xl mb-12">Create unlimited segregated wallets that your customers and investors can verify on-chain.</h3>
+                <div style="margin-top: 30px" class="md:w-11/12 md:mt-0 lg:mt-20 w-full">
+                    <h3>CUSTODIAN WALLET PROVIDER</h3>
+                    <h1 style="margin-top: 0px" class="text-cc-purple font-bold mb-4 md:mt-20 text-5xl">Beyond Crypto Custody</h1>
+                    <p style="color: black; margin-bottom: 1rem" class="md:w-10/12 text-2xl mb-12">ColdWallet is the insured, FCA registered, user-friendly, segregated custodial wallet platform for institutional-grade security, automation and management of cryptoassets.</p>
+                    <p style="color: black; margin-bottom: 1rem" class="md:w-10/12 text-2xl mb-12">Create unlimited segregated wallets that your customers and investors can verify on-chain.</p>
+                    <p style="color: black" class="md:w-10/12 text-2xl mb-12">At rest or in motion, we make it safer, faster and easier for institutions and individuals to safeguard and administer cryptoassets across blockchains and DeFi.</p>
                     <div class="hidden md:inline mt-5 w-full md:w-10/12 flex-mobile mt-12">
                         <a href="{{ route('register') }}" class="btn btn-mallard btn-mobile md:w-60">Buy Bitcoin</a>
                     </div>
