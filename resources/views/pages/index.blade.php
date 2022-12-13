@@ -74,37 +74,7 @@
             </div>
         </div>
     </section>
-        <section class="mt-20 py-20">
-            <h1 class="text-left font-semibold text-cc-mallard md:mt-48">How to buy Bitcoin</h1>
-            <h2 class="text-left my-5">Buying Bitcoin has never been easier!</h2>
-            <div class="flex-mobile justify-around space-y-8 md:space-y-0 md:space-x-8 mt-12 pb-4">
-                <div class="md:w-1/3">
-                    <div>
-                        <img alt="Register with CoinCorner today" class="mb-4 transform-center" height="101" src="Images/HomePageV3/Register-Icon.png" width="101"></img>
-                        <h3 class="text-center index-header font-semibold my-2">Register</h3>
-                        <p class="text-center">Get started by <a class="underline" href="Register.html">registering</a> for a free account - it only takes a few minutes!</p>
-                    </div>
-                </div>
-                <div class="md:w-1/3">
-                    <div>
-                        <img alt="Buy Bitcoin with CoinCorner" class="mb-4 transform-center" height="101" src="Images/HomePageV3/Deposit-Icon.png" width="101"></img>
-                        <h3 class="text-center index-header font-semibold my-2">Deposit</h3>
-                        <p class="text-center">Instantly fund your account with credit or debit card, bank transfer or SEPA. Alternatively, set up a standing order with <a class="underline" href="bitcoin-auto-buy.html">Auto Buy</a>.</p>
-                    </div>
-                </div>
-                <div class="md:w-1/3">
-                    <div>
-                        <img alt="Buy, Sell &amp; Store Bitcoin with CoinCorner" class="mb-4 transform-center" height="101" src="Images/HomePageV3/Buy-Sell-Icon.png" width="101"></img>
-                        <h3 class="text-center index-header font-semibold my-2">Buy</h3>
-                        <p class="text-center">Go to the Buy and Sell page to use your funds to buy Bitcoin. Learn how to buy Bitcoin <a class="underline" href="buy-bitcoin.html">here</a>.</p>
-                    </div>
-                </div>
-            </div>
-            <div class="text-center w-full mt-4 flex-col">
-                <a href="Register.html" class="btn btn-mallard btn-mobile">Buy Bitcoin</a>
-                <a href="buy-bitcoin.html" class="block text-cc-sec-grey font-normal mt-2">Learn More</a>
-            </div>
-        </section>
+        
         <section class="mt-20 py-20">
             <div class="justify-center flex mr-20">
                 <h1 class="text-cc-light-grey text-xl md:mr-44">Media Article Features - </h1>
@@ -141,52 +111,15 @@
                 </div>
             </div>
         </section>
-        <section class="mt-20 py-20">
-            <h1 class="text-left font-semibold text-cc-mallard">Auto buy Bitcoin</h1>
-            <h2 class="text-left my-5">A stress-free way to buy Bitcoin regularly, without lifting a finger.</h2>
-            <div class="w-full flex flex-col md:flex-row">
-                <div class="md:w-1/2">
-                    <div class="mt-5 text-center">
-                        <h3 class="index-header font-bold">Get started</h3>
-                        <p class="text-center md:w-2/4 m-auto md:mt-2">Register for a free account.</p>
-                    </div>
-                    <div class="text-center mt-10">
-                        <h3 class="index-header font-bold">Set up</h3>
-                        <p class="text-center md:w-2/4 m-auto md:mt-2">Create a standing order with your bank and choose how often you want to buy Bitcoin.</p>
-                    </div>
-                    <div class="text-center mt-10">
-                        <h3 class="index-header font-bold">Relax</h3>
-                        <p class="text-center md:w-2/4 m-auto md:mt-2">Watch your Bitcoin portfolio grow!</p>
-                    </div>
-                </div>
-                <div class="md:w-1/2">
-                    <div class="mt-10 flex justify-center">
-                        <img alt="CoinCorner Desktop and Mobile" class="object-contain mb-12" height="299" layout="intrinsic" src="Images/HomePageV3/CC-Desktop-Mob.png" width="419"></img>
-                    </div>
-                    <div class="w-full md:w-auto text-center mt-10">
-                        <a href="Register.html" class="btn btn-mallard btn-mobile">Auto Buy Bitcoin</a>
-                        <a href="bitcoin-auto-buy.html" class="block mt-2 small text-center text-cc-sec-grey font-normal mt-2">Learn More</a>
-                    </div>
-                </div>
-            </div>
-        </section>
+
         <hr class="index-hr hidden lg:block mt-16" />
         <section class="py-20">
-            <h1 class="text-left font-semibold text-cc-mallard">Earn Bitcoin when you <br /> shop online</h1>
-            <div>
-                <div class="flex-mobile">
-                    <div class="flex md:w-9/12">
-                        <h2 class="text-left my-5">Shop with 100s of online retailers and earn up to 40% back in Bitcoin!</h2>
-                    </div>
-                </div>
-            </div>
+            <h1 class="text-left font-semibold text-cc-mallard">A Platform you can trust</h1>
+
             <div class="w-full flex-mobile">
                 <div class="flex-col mt-10">
                     <img alt="Earn Bitcoin at a number of merchant&#39;s such as; B&amp;Q, Myprotein and Size?" class="md:mt-10" height="277" layout="intrinsic" src="Images/HomePageV3/Cashback-Logos.png" width="572"></img>
-                    <div class="w-full md:w-auto block mt-11 text-center md:pt-1">
-                        <img alt="Chrome, Edge, Opera web browsers" class="transform-center mb-2 md:mt-8" height="41" layout="intrinsic" src="Images/HomePageV3/Browser-Logos.png" width="242"></img>
-                        <a href="https://chrome.google.com/webstore/detail/coincorner-earn-bitcoin/onebfemgnhgpkdcmijbpjakhhidonjfl" target="_blank" rel="noopener nofollow" class="btn btn-mallard-border btn-mobile font-bold mt-5">Download Our Extension</a>
-                    </div>
+
                 </div>
                 <div class="flex-column mt-10 md:w-1/2">
                     <div class="text-center">
@@ -205,50 +138,6 @@
                     <div class="w-full md:w-auto text-center mt-10">
                         <a href="Register.html" class="btn btn-mallard btn-mobile md:w-60">Earn Bitcoin</a>
                         <a href="earn-bitcoin.html" class="block mt-2 small text-center text-cc-sec-grey font-normal mt-2">Learn More</a>
-                    </div>
-                </div>
-            </div>
-        </section>
-        <hr class="index-hr hidden lg:block mt-16" />
-        <section class="py-20">
-            <h1 class="text-left font-semibold text-cc-mallard">Accept Bitcoin payments with CoinCorner Checkout</h1>
-            <div>
-                <div class="flex-mobile">
-                    <div class="flex md:w-9/12">
-                        <h2 class="text-left my-5">Stand out from the crowd by accepting Bitcoin payments at your business.</h2>
-                    </div>
-                </div>
-            </div>
-            <div class="w-full flex-mobile">
-                <div class="md:w-1/2 flex-col">
-                    <div class="md:mt-12">
-                        <div class="flex justify-center">
-                            <img alt="Start Accepting Bitcoin today" class="md:w-full" height="275" layout="intrinsic" src="Images/HomePageV3/Checkout.png" width="400"></img>
-                        </div>
-                        <div class="flex justify-center">
-                            <a href="merchantregister.html" class="btn mt-11 btn-mallard btn-mobile">Accept Bitcoin</a>
-                        </div>
-                        <div class="flex justify-center">
-                            <a href="checkout.html" class="block mt-2 small text-center text-cc-sec-grey font-normal mt-2">Learn More</a>
-                        </div>
-                    </div>
-                </div>
-                <div class="flex-col mt-10 md:w-1/2">
-                    <div class="text-center">
-                        <h3 class="index-header font-bold">Quick and easy setup</h3>
-                        <p class="text-center md:w-2/4 m-auto md:mt-2">Get up and running in minutes!</p>
-                    </div>
-                    <div class="text-center mt-10">
-                        <h3 class="index-header font-bold">Global reach</h3>
-                        <p class="text-center md:w-2/4 m-auto md:mt-2">Appeal to new customers worldwide.</p>
-                    </div>
-                    <div class="text-center mt-10">
-                        <h3 class="index-header font-bold">Eliminate fraud</h3>
-                        <p class="text-center md:w-2/4 m-auto md:mt-2">No chargebacks with Bitcoin.</p>
-                    </div>
-                    <div class="text-center mt-10">
-                        <h3 class="index-header font-bold">Just 1% fee</h3>
-                        <p class="text-center md:w-2/4 m-auto md:mt-2">Lower than payment processors like PayPal.</p>
                     </div>
                 </div>
             </div>
