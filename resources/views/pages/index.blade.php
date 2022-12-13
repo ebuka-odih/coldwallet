@@ -46,6 +46,34 @@
                 <p class="text-2xl md:text-xl mt-3 w-full text-center leading-tight">Start with as little<br /> as <strong>£10</strong></p>
             </div>
         </section>
+    <section>
+        <h1 class="text-left font-semibold text-cc-mallard pt-20">Choose your custodial wallet service</h1>
+        <h3 style="color: black">On-Chain</h3>
+        <h2 class="text-left my-5">
+            Securely hold cryptoassets and efficiently handle any financial transaction on Bitcoin, Ethereum, Xinfin or Binance Smart Chain blockchains. Tap deeper liquidity or leverage margin opportunities with our DeFi integrations. Better still, start staking ETH and earn interest. Our blockchain custody and wallet services ensure institutions receive a scalable, secure solution at an affordable price point.
+        </h2>
+        <div class="flex-mobile justify-around space-y-8 md:space-y-0 md:space-x-8 mt-16 pb-20">
+            <div class="md:w-1/3">
+                <div>
+                    <img alt="CoinCorner, trusted Bitcoin Exchange" class="mb-4 transform-center" height="101" src="Images/HomePageV3/Trust-Bitcoin.png" width="101"></img>
+                    <h3 class="text-center index-header font-semibold my-1">Trusted by 50+ <br /> exchange</h3>
+                </div>
+            </div>
+            <div class="md:w-1/3">
+                <div>
+                    <img alt="Auto-Buy Bitcoin with CoinCorner" class="mb-4 transform-center" height="101" src="Images/HomePageV3/Auto-Buy-Icon.png" width="101"></img>
+                    <h3 class="text-center font-semibold index-header my-2 mb-9">Instant auto backup</h3>
+                </div>
+            </div>
+            <div class="md:w-1/3">
+                <div>
+                    <img alt="Buy Bitcoin with the CoinCorner app" class="transform-center mb:mb-7" height="101" src="Images/HomePageV3/Manage-App-Icon.png" width="101"></img>
+                    <h3 class="text-center index-header font-semibold my-2 mb-9">Mobile app</h3>
+                    <p class="text-center">Download the Cold-Wallet app and get access to your account wherever you are!</p>
+                </div>
+            </div>
+        </div>
+    </section>
         <section class="mt-20 py-20">
             <h1 class="text-left font-semibold text-cc-mallard md:mt-48">How to buy Bitcoin</h1>
             <h2 class="text-left my-5">Buying Bitcoin has never been easier!</h2>
@@ -225,113 +253,15 @@
                 </div>
             </div>
         </section>
+
         <hr class="index-hr hidden lg:block mt-16" />
-        <section>
-            <h1 class="text-right font-semibold text-cc-mallard pt-20">Why do people buy Bitcoin?</h1>
-            <h2 class="text-right my-5">Will you be part of the inevitable?</h2>
-            <div class="flex-mobile justify-around space-y-8 md:space-y-0 md:space-x-8 mt-16">
-                <div class="md:w-1/3">
-                    <div>
-                        <img alt="Bitcoin gives you control" class="mb-4 transform-center" height="101" src="Images/HomePageV3/Control-Icon.png" width="101"></img>
-                        <h3 class="text-center index-header font-semibold my-2">Take Back Control</h3>
-                        <p class="text-center">Bitcoin is “decentralised” which means that no central authority (like a Government or bank) controls it. It can be sent to anyone, anywhere in the world in a matter of minutes.</p>
-                    </div>
-                </div>
-                <div class="md:w-1/3">
-                    <div>
-                        <img alt="Buy goods with Bitcoin" class="transform-center" height="101" src="Images/HomePageV3/Pay-Icon.png" width="101"></img>
-                        <h3 class="text-center index-header font-semibold my-2">Pay For Goods</h3>
-                        <p class="text-center">With a growing number of businesses now accepting Bitcoin as a payment method, many people are using it to pay for everyday goods and services.</p>
-                    </div>
-                </div>
-                <div class="md:w-1/3">
-                    <div>
-                        <img alt="HODL Bitcoin" class="mb-4 transform-center" height="101" src="Images/HomePageV3/Store-Bitcoin.png" width="101"></img>
-                        <h3 class="text-center index-header font-semibold my-2">Store Of Wealth</h3>
-                        <p class="text-center">Often called “digital gold”, many people buy Bitcoin as a store of wealth and as a way to diversify their investment portfolio.</p>
-                    </div>
-                </div>
-            </div>
-            <div class="text-center w-full mt-4 flex-col pb-20">
-                <a href="Register.html" class="btn btn-mallard btn-mobile">Buy Bitcoin</a>
-                <a href="buy-bitcoin.html" class="block text-cc-sec-grey font-normal mt-2">Learn More</a>
-            </div>
-        </section>
-        <hr class="index-hr hidden lg:block mt-16" />
-        <section>
-            <h1 class="text-left font-semibold text-cc-mallard pt-20">Why Choose CoinCorner?</h1>
-            <h2 class="text-left my-5">We make Bitcoin easy for everyone and have grown to support customers and businesses worldwide with a range of innovative services.</h2>
-            <div class="flex-mobile justify-around space-y-8 md:space-y-0 md:space-x-8 mt-16 pb-20">
-                <div class="md:w-1/3">
-                    <div>
-                        <img alt="CoinCorner, trusted Bitcoin Exchange" class="mb-4 transform-center" height="101" src="Images/HomePageV3/Trust-Bitcoin.png" width="101"></img>
-                        <h3 class="text-center index-header font-semibold my-1">Trusted Bitcoin <br /> exchange</h3>
-                        <p class="text-center">Founded in 2014, we’re an award-winning exchange that holds Designated Business status with the IOMFSA and is trusted by 200,000+ people globally.</p>
-                    </div>
-                </div>
-                <div class="md:w-1/3">
-                    <div>
-                        <img alt="Auto-Buy Bitcoin with CoinCorner" class="mb-4 transform-center" height="101" src="Images/HomePageV3/Auto-Buy-Icon.png" width="101"></img>
-                        <h3 class="text-center font-semibold index-header my-2 mb-9">Instant and auto Bitcoin buys</h3>
-                        <p class="text-center">Available in 45+ countries, you can buy and sell Bitcoin with GBP or EUR using credit or debit card, bank transfer or SEPA.</p>
-                    </div>
-                </div>
-                <div class="md:w-1/3">
-                    <div>
-                        <img alt="Buy Bitcoin with the CoinCorner app" class="transform-center mb:mb-7" height="101" src="Images/HomePageV3/Manage-App-Icon.png" width="101"></img>
-                        <h3 class="text-center index-header font-semibold my-2 mb-9">Mobile app</h3>
-                        <p class="text-center">Download the CoinCorner app and get access to your account wherever you are!</p>
-                    </div>
-                </div>
-            </div>
-        </section>
+
         <section>
             <div class="w-full">
                 <blockquote class="text-center m-auto mt-24 text-cc-light-grey"><h1 class="md:text-4xl text-cc-light-grey"><span class="fontello-icon"></span> Bitcoin is the most ground-breaking technological innovation since the internet <span class="fontello-icon"></span> - Danny Scott, CEO</h1></blockquote>
             </div>
         </section>
-        <hr class="index-hr hidden lg:block mt-16" />
-        <section class="py-20">
-            <h1 class="text-left text-cc-mallard font-semibold">FAQs</h1>
-            <h2 class="text-left my-5">Do you have any questions about Bitcoin or our services?</h2>
-            <div class="border-b faq-border">
-                <input id="q1" class="toggle" type="checkbox">
-                <label for="q1" class="faq font-bold text-xl">How long will it take me to buy Bitcoin with CoinCorner?<span class="fontello-icon text-cc-icon-blue"></span></label>
-                <p class="collapsed">
-                    It takes minutes to buy Bitcoin with us. We’ve worked hard to create a simple and easy sign up process.
-                    As soon as you’ve made an account, you can fund it with fiat currency and use this balance to buy Bitcoin.
-                </p>
-            </div>
-            <div class="border-b faq-border">
-                <input id="q2" class="toggle" type="checkbox">
-                <label for="q2" class="faq font-bold text-xl"> What payment methods are available with CoinCorner?<span class="fontello-icon text-cc-icon-blue"></span></label>
-                <p class="collapsed">
-                    All the popular options are available! We support a number of major payment methods, including credit and debit card, bank transfer or SEPA.
-                </p>
-            </div>
-            <div class="border-b faq-border">
-                <input id="q4" class="toggle" type="checkbox">
-                <label for="q4" class="faq font-bold text-xl">Why do I need to give my personal details?<span class="fontello-icon text-cc-icon-blue"></span></label>
-                <p class="collapsed">
-                    CoinCorner is an IOMFSA registered company and we follow rules which require us to ask for standard personal details such as name, email, date of birth and address.
-                    These are used for compliance purposes.
-                </p>
-            </div>
-            <div class="border-b faq-border">
-                <input id="q5" class="toggle" type="checkbox">
-                <label for="q5" class="faq font-bold text-xl"> Can I transfer my Bitcoin with CoinCorner?<span class="fontello-icon text-cc-icon-blue"></span></label>
-                <p class="collapsed">
-                    Yes! You can buy, sell, send, receive, store and transfer your Bitcoin with CoinCorner.
-                    Whatever you want to do with it, you can do quickly and easily.
-                    <br />
-                    We recommend that customers consider transferring their Bitcoin to offline (cold) storage for safe-keeping.
-                </p>
-            </div>
-            <div class="mt-8 mb-10">
-                <p>For more help, <a class="underline" href="https://support.coincorner.com/hc/en-us" target="_blank" rel="nofollow noreferrer">visit our Help Centre.</a></p>
-                <p>*You may be required to provide documents after registering should you fail any of our automated checks</p>
-            </div>
-        </section>
+
     </div>
 
 
