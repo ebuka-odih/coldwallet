@@ -6,26 +6,15 @@
     <div class="row g-0 flex-md-grow-1">
         <div class="col-md-4 col-lg-5 col-xl-3 order-md-1">
             <div class="content">
-                <!-- Toggle Storage Info -->
-                <div class="d-md-none push">
-                    <!-- Class Toggle, functionality initialized in Helpers.dmToggleClass() -->
-                    <button type="button" class="btn w-100 btn-alt-primary" data-toggle="class-toggle" data-target="#side-content" data-class="d-none">
-                        Storage Info
-                    </button>
-                </div>
-                <!-- END Toggle Storage Info -->
+
 
                 <!-- Storage Info -->
                 <div id="side-content" class="d-none d-md-block push">
-                    <!-- Current Status -->
-                    <div class="block block-rounded">
-                        <script defer src="https://www.livecoinwatch.com/static/lcw-widget.js"></script> <div class="livecoinwatch-widget-3" lcw-base="USD" lcw-d-head="true" lcw-d-name="true" lcw-d-code="true" lcw-d-icon="true" lcw-color-tx="#ffffff" lcw-color-bg="#1f2434" lcw-border-w="1" ></div>
-
-                    </div>
-                    <!-- END Current Status -->
 
                     <!-- Storage Stats -->
-                    <div class="block block-rounded mb-2">
+                    <div  class="block block-rounded mb-2">
+{{--                        <script  defer src="https://www.livecoinwatch.com/static/lcw-widget.js"></script>--}}
+{{--                        <div  class="livecoinwatch-widget-3" lcw-base="USD" lcw-d-head="false" lcw-d-name="true" lcw-d-code="true" lcw-d-icon="true" lcw-color-tx="#000000" lcw-color-bg="#ffffff" lcw-border-w="1" ></div>--}}
 
                     </div>
                     <!-- END Storage Stats -->

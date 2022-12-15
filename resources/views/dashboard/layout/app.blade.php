@@ -34,24 +34,15 @@
             <div class="content-header bg-white-5">
                 <!-- Logo -->
                 <a class="fw-semibold text-white tracking-wide" href="index.html">
-              <span class="smini-visible">
-                D<span class="opacity-75">x</span>
-              </span>
+
                     <span class="smini-hidden">
-                Dash<span class="opacity-75">mix</span>
-                <span class="fw-normal">File Hosting</span>
+                Cold<span class="opacity-75">Wallet</span>
               </span>
                 </a>
                 <!-- END Logo -->
 
                 <!-- Options -->
                 <div>
-                    <!-- Extra Settings -->
-                    <a class="btn btn-sm btn-alt-secondary" href="javascript:void(0)">
-                        <i class="fa fa-cog"></i>
-                    </a>
-                    <!-- END Extra Settings -->
-
                     <!-- Close Sidebar, Visible only on mobile screens -->
                     <!-- Layout API, functionality initialized in Template._uiApiLayout() -->
                     <button type="button" class="btn btn-sm btn-alt-secondary d-lg-none" data-toggle="layout" data-action="sidebar_close">
@@ -83,70 +74,40 @@
                             <span class="nav-main-link-name">Dashboard</span>
                         </a>
                     </li>
-                    <li class="nav-main-heading">Files</li>
+                    <li class="nav-main-heading">Main</li>
                     <li class="nav-main-item">
                         <a class="nav-main-link" href="">
-                            <i class="nav-main-link-icon fa fa-file-word"></i>
-                            <span class="nav-main-link-name">Documents</span>
-                            <span class="nav-main-link-badge badge rounded-pill bg-secondary">19</span>
+                            <i class="nav-main-link-icon fa fa-chart-area"></i>
+                            <span class="nav-main-link-name">Portfolio</span>
                         </a>
                     </li>
                     <li class="nav-main-item">
                         <a class="nav-main-link" href="">
-                            <i class="nav-main-link-icon fa fa-file-image"></i>
-                            <span class="nav-main-link-name">Photos</span>
-                            <span class="nav-main-link-badge badge rounded-pill bg-secondary">45</span>
+                            <i class="nav-main-link-icon fa fa-wallet"></i>
+                            <span class="nav-main-link-name">Custodian Wallet</span>
                         </a>
                     </li>
                     <li class="nav-main-item">
                         <a class="nav-main-link" href="">
-                            <i class="nav-main-link-icon fa fa-file-video"></i>
-                            <span class="nav-main-link-name">Videos</span>
-                            <span class="nav-main-link-badge badge rounded-pill bg-secondary">65</span>
+                            <i class="nav-main-link-icon fa fa-history"></i>
+                            <span class="nav-main-link-name">History</span>
                         </a>
                     </li>
                     <li class="nav-main-item">
                         <a class="nav-main-link" href="">
                             <i class="nav-main-link-icon fa fa-file-audio"></i>
-                            <span class="nav-main-link-name">Audio</span>
-                            <span class="nav-main-link-badge badge rounded-pill bg-secondary">28</span>
+                            <span class="nav-main-link-name">Explore</span>
                         </a>
                     </li>
-                    <li class="nav-main-heading">Tags</li>
+                    <li class="nav-main-heading">Settings</li>
+
                     <li class="nav-main-item">
                         <a class="nav-main-link" href="">
                             <i class="nav-main-link-icon fa fa-tag text-danger"></i>
-                            <span class="nav-main-link-name">Work</span>
-                            <span class="nav-main-link-badge badge rounded-pill bg-danger">98</span>
+                            <span class="nav-main-link-name">Security</span>
                         </a>
                     </li>
-                    <li class="nav-main-item">
-                        <a class="nav-main-link" href="">
-                            <i class="nav-main-link-icon fa fa-tag text-success"></i>
-                            <span class="nav-main-link-name">Personal</span>
-                            <span class="nav-main-link-badge badge rounded-pill bg-success">34</span>
-                        </a>
-                    </li>
-                    <li class="nav-main-item">
-                        <a class="nav-main-link" href="">
-                            <i class="nav-main-link-icon fa fa-tag text-info"></i>
-                            <span class="nav-main-link-name">Project X</span>
-                            <span class="nav-main-link-badge badge rounded-pill bg-info">56</span>
-                        </a>
-                    </li>
-                    <li class="nav-main-item">
-                        <a class="nav-main-link" href="">
-                            <i class="nav-main-link-icon fa fa-tag text-warning"></i>
-                            <span class="nav-main-link-name">Trip</span>
-                            <span class="nav-main-link-badge badge rounded-pill bg-warning">10</span>
-                        </a>
-                    </li>
-                    <li class="nav-main-item">
-                        <a class="nav-main-link" href="">
-                            <i class="nav-main-link-icon fa fa-plus text-muted"></i>
-                            <span class="nav-main-link-name">Add New Tag</span>
-                        </a>
-                    </li>
+
                 </ul>
             </div>
             <!-- END Side Navigation -->
@@ -175,12 +136,6 @@
                 </button>
                 <!-- END Toggle Sidebar Mini Mode -->
 
-                <!-- Open Search Section -->
-                <!-- Layout API, functionality initialized in Template._uiApiLayout() -->
-                <button type="button" class="btn btn-alt-secondary d-lg-none" data-toggle="layout" data-action="header_search_on">
-                    <i class="fa fa-fw fa-search"></i> <span class="ms-1 d-none d-sm-inline-block">Search..</span>
-                </button>
-                <!-- END Open Search Section -->
 
                 <!-- Search form in larger screens -->
                 <form class="d-none d-lg-inline-block ms-1" action="be_pages_generic_search.html" method="POST">
@@ -195,19 +150,19 @@
                 <!-- User Dropdown -->
                 <div class="dropdown d-inline-block">
                     <button type="button" class="btn btn-alt-secondary" id="page-header-user-dropdown" data-bs-toggle="dropdown" aria-haspopup="true" aria-expanded="false">
-                        <span class="d-none d-lg-inline mx-1">lisa.d@example.com</span>
-                        <span class="badge rounded-pill bg-dark">VIP</span>
+                        <span class="d-none d-lg-inline mx-1">{{ auth()->user()->email }}</span>
+                        <span class="badge rounded-pill bg-dark">USR</span>
                         <i class="fa fa-fw fa-angle-down ms-1"></i>
                     </button>
                     <div class="dropdown-menu dropdown-menu-end dropdown-menu-lg p-0 overflow-hidden" aria-labelledby="page-header-user-dropdown">
                         <div class="row g-0">
                             <div class="col-5 d-flex align-items-center justify-content-center bg-image p-2" style="background-image: url('assets/media/photos/photo10.jpg');">
-                                <img class="img-avatar img-avatar96 img-avatar-thumb" src="assets/media/avatars/avatar1.jpg" alt="">
+                                <img class="img-avatar img-avatar96 img-avatar-thumb" src="{{ asset('assets/media/avatars/avatar1.jpg') }}" alt="">
                             </div>
                             <div class="col-7 p-2 fs-sm">
                                 <a class="dropdown-item fw-semibold" href="be_pages_generic_profile.html">
                                     <i class="fa fa-fw fa-user-circle me-1"></i>
-                                    Lisa Doe
+                                    {{ auth()->user()->name }}
                                 </a>
                                 <a class="dropdown-item" href="javascript:void(0)">
                                     <i class="fa fa-fw fa-pencil-alt me-1"></i>
