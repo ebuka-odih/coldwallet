@@ -167,23 +167,6 @@
                             <p><small>&copy; 2022 ColdWallet</small></p>
                         </div>
                     </div>
-                    <div class="flex-mobile flex-row md:w-1/2 md:justify-center space-x-6 mt-5">
-                        <a class="" href="https://www.facebook.com/coincorner" itemprop="sameAs" rel="noopener noreferrer author publisher nofollow me" target="_blank" title="CoinCorner Facebook">
-                            <img alt="Facebook Icon" height="30" src="Images/FooterIcons/Facebook-Icon.png" width="30"></img>
-                        </a>
-                        <a class="md:ml-5" href="https://twitter.com/CoinCorner" itemprop="sameAs" rel="noopener noreferrer author publisher nofollow me" target="_blank" title="CoinCorner Twitter">
-                            <img alt="Twitter Icon" height="30" src="Images/FooterIcons/Twitter-Icon.png" width="30"></img>
-                        </a>
-                        <a class="md:ml-5" href="https://www.linkedin.com/company/coincorner-ltd/mycompany/" rel="noopener noreferrer author publisher nofollow me" target="_blank" title="CoinCorner Blog">
-                            <img alt="LinkedIn Icon" height="30" src="Images/FooterIcons/LinkedIn-Icon.png" width="30"></img>
-                        </a>
-                        <a class="md:ml-5" href="https://www.youtube.com/channel/UC_Jkoc7F2bmrZJu6akhJPkw" itemprop="sameAs" rel="noopener noreferrer author publisher nofollow me" target="_blank" title="CoinCorner Youtube">
-                            <img alt="YouTube Icon" height="30" src="Images/FooterIcons/YouTube-Icon.png" width="30"></img>
-                        </a>
-                        <a class="md:ml-5" href="https://medium.com/coincorner" rel="author publisher nofollow noopener noreferrer" target="_blank" title="CoinCorner Blog">
-                            <img alt="Medium Icon" height="30" src="Images/FooterIcons/Medium-Icon.png" width="30"></img>
-                        </a>
-                    </div>
                 </div>
             </section>
             <nav class="flex flex-col md:space-x-4 lg:space-x-16 md:flex-row leading-8 mt-3">
@@ -193,15 +176,8 @@
                         <li><a href="About.html" title="About ColdWallet">About Us</a></li>
                         <li><a href="ContactUs.html" title="Contact ColdWallet">Contact Us</a></li>
                         <li><a href="Register.html" title="Register at ColdWallet">Register</a></li>
-                        <li><a href="Checkout-2.html" title="ColdWallet Checkout">Accept Bitcoin Payments</a></li>
-                        <li><a href="TheBoltCard.html" title="The Bolt Card by ColdWallet">The Bolt Card</a></li>
                         <li><a href="Bitcoin-Stacking-Accounts.html" title="Bitcoin Stacking Accounts">Bitcoin Stacking Accounts</a></li>
-                        <li><a href="Bitcoin-Gift-Cards.html" title="Bitcoin Gift Cards">Bitcoin Gifts</a></li>
                         <li><a href="Products.html" title="Products Page" rel="author">Products</a></li>
-                        <li><a href="Bitcoin-Auto-Buy-2.html" title="Bitcoin Auto Buys Page" rel="author">Auto Buys</a></li>
-                        <li><a href="Earn-Bitcoin-2.html" title="Earn Bitcoin with ColdWallet Cashback">Earn Bitcoin</a></li>
-                        <li><a href="Affiliates.html" title="Earn Bitcoins Online with ColdWallet">Affiliate Program</a></li>
-                        <li><a href="Carbon-Neutral.html" title="Carbon Neutral Commitment">Carbon Neutral Commitment</a></li>
                     </ul>
                 </section>
                 <section class="md:w-1/3 whitespace-nowrap">
@@ -210,12 +186,7 @@
                         <li><a href="https://support.coincorner.com/hc/en-us" target="_blank" title="ColdWallet FAQs" rel="noopener noreferrer">Help Centre</a></li>
                         <li><a href="Press.html" title="CoinCorner Press Page">ColdWallet Press</a></li>
                         <li><a href="Buy-Bitcoin-2.html" title="Buy Bitcoin">Buy Bitcoin</a></li>
-                        <li><a href="What-Is-Bitcoin.html" title="What is Bitcoin">What is Bitcoin?</a></li>
                         <li><a href="Fees.html" title="ColdWallet Fees">ColdWallet Fees</a></li>
-                        <li><a href="https://api.coincorner.com/" title="CoinCorner API" rel="author noreferrer noopener" target="_blank">API</a></li>
-                        <li><a href="https://blog.coincorner.com/" title="CoinCorner Blog" rel="author noreferrer noopener" target="_blank">Blog</a></li>
-                        <li><a href="Jobs.html" title="Careers at CoinCorner">A Career In Bitcoin</a></li>
-                        <li><a href="WhereToSpend.html" title="Merchant Map">Find Bitcoin merchants</a></li>
                     </ul>
                 </section>
                 <section class="md:w-1/3 whitespace-nowrap">
@@ -223,9 +194,7 @@
                     <ul>
                         <li><a href="Terms.html" title="Terms of Use">Terms of Use</a></li>
                         <li><a href="PrivacyPolicy.html" title="ColdWallet Privacy Policy">Privacy Policy</a></li>
-                        <li><a href="AffiliateTerms.html" title="Affiliate Terms of Use">Affiliate Terms of Use</a></li>
                         <li><a href="ProhibitedActivities.html" title="ColdWallet Prohibited Activities">Prohibited Activities</a></li>
-                        <li><a href="Countries.html" title="Countries ColdWallet Allow">Countries We Allow</a></li>
                     </ul>
                 </section>
             </nav>

@@ -74,7 +74,7 @@
             </div>
         </div>
     </section>
-        
+
         <section class="mt-20 py-20">
             <div class="justify-center flex mr-20">
                 <h1 class="text-cc-light-grey text-xl md:mr-44">Media Article Features - </h1>
