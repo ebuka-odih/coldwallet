@@ -20,6 +20,9 @@
     <!-- <link rel="stylesheet" id="css-theme" href="assets/css/themes/xwork.min.css"> -->
     <link rel="stylesheet" id="css-theme" href="{{ asset('assets/css/themes/xdream.min.css') }}">
     <!-- END Stylesheets -->
+    <!-- Page JS Plugins CSS -->
+    <link rel="stylesheet" href="{{ asset('assets/js/plugins/select2/css/select2.min.css') }}">
+    <link rel="stylesheet" href="{{ asset('assets/js/plugins/dropzone/min/dropzone.min.css') }}">
 </head>
 <body>
 <!-- Page Container -->
@@ -33,7 +36,7 @@
         <div class="bg-header-dark">
             <div class="content-header bg-white-5">
                 <!-- Logo -->
-                <a class="fw-semibold text-white tracking-wide" href="index.html">
+                <a class="fw-semibold text-white tracking-wide" href="{{ route('user.wallet') }}">
 
                     <span class="smini-hidden">
                 Cold<span class="opacity-75">Wallet</span>
@@ -59,7 +62,7 @@
         <div class="js-sidebar-scroll">
             <!-- Side Actions -->
             <div class="content-side smini-hide">
-                <a class="btn btn-alt-success w-100" href="javascript:void(0)">
+                <a class="btn btn-alt-success w-100" href="{{ route('user.wallet') }}">
                     <i class="fa fa-plus me-1"></i> Add Asset
                 </a>
             </div>
@@ -82,7 +85,7 @@
                         </a>
                     </li>
                     <li class="nav-main-item">
-                        <a class="nav-main-link" href="">
+                        <a class="nav-main-link" href="{{ route('user.wallet') }}">
                             <i class="nav-main-link-icon fa fa-wallet"></i>
                             <span class="nav-main-link-name">Custodian Wallet</span>
                         </a>
@@ -235,5 +238,10 @@
 
 
 <script src="{{ asset('assets/js/dashmix.app.min.js') }}"></script>
+<script src="{{ asset('assets/js/lib/jquery.min.js') }}"></script>
+<script src="{{ asset('assets/js/plugins/dropzone/min/dropzone.min.js') }}"></script>
+<script src="{{ asset('assets/js/plugins/select2/js/select2.full.min.js') }}"></script>
+<script>Dashmix.helpersOnLoad(['js-flatpickr', 'jq-datepicker', 'jq-colorpicker', 'jq-maxlength', 'jq-select2', 'jq-rangeslider', 'jq-masked-inputs', 'jq-pw-strength']);</script>
+
 </body>
 </html>

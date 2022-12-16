@@ -10,12 +10,66 @@
 
                 <!-- Storage Info -->
                 <div id="side-content" class="d-none d-md-block push">
+                    <!-- Current Status -->
+                    <div class="block block-rounded">
+                        <div class="block-content">
+                            <h4 class="h5 text-muted mb-2">Storage</h4>
+                            <p class="h1 fw-bold mb-1">
+                                920GB
+                                <span class="fs-sm text-muted">of 1TB</span>
+                            </p>
+                            <div class="progress push" style="height: 5px;">
+                                <div class="progress-bar bg-danger" role="progressbar" style="width: 92%;" aria-valuenow="92" aria-valuemin="0" aria-valuemax="100"></div>
+                            </div>
+                            <p class="fs-sm text-muted">
+                                <a href="javascript:void(0)">Upgrade Plan?</a>
+                            </p>
+                        </div>
+                    </div>
+                    <!-- END Current Status -->
 
                     <!-- Storage Stats -->
-                    <div  class="block block-rounded mb-2">
-{{--                        <script  defer src="https://www.livecoinwatch.com/static/lcw-widget.js"></script>--}}
-{{--                        <div  class="livecoinwatch-widget-3" lcw-base="USD" lcw-d-head="false" lcw-d-name="true" lcw-d-code="true" lcw-d-icon="true" lcw-color-tx="#000000" lcw-color-bg="#ffffff" lcw-border-w="1" ></div>--}}
-
+                    <div class="block block-rounded mb-2">
+                        <div class="block-content border-bottom">
+                            <h4 class="h5 text-muted mb-2">Documents</h4>
+                            <p class="h2 fw-bold mb-1">
+                                80GB
+                                <span class="fs-sm text-muted">of 1TB</span>
+                            </p>
+                            <div class="progress push" style="height: 5px;">
+                                <div class="progress-bar bg-success" role="progressbar" style="width: 8%;" aria-valuenow="8" aria-valuemin="0" aria-valuemax="100"></div>
+                            </div>
+                        </div>
+                        <div class="block-content border-bottom">
+                            <h4 class="h5 text-muted mb-2">Photos</h4>
+                            <p class="h2 fw-bold mb-1">
+                                40GB
+                                <span class="fs-sm text-muted">of 1TB</span>
+                            </p>
+                            <div class="progress push" style="height: 5px;">
+                                <div class="progress-bar bg-success" role="progressbar" style="width: 4%;" aria-valuenow="4" aria-valuemin="0" aria-valuemax="100"></div>
+                            </div>
+                        </div>
+                        <div class="block-content border-bottom">
+                            <h4 class="h5 text-muted mb-2">Videos</h4>
+                            <p class="h2 fw-bold mb-1">
+                                780GB
+                                <span class="fs-sm text-muted">of 1TB</span>
+                            </p>
+                            <div class="progress push" style="height: 5px;">
+                                <div class="progress-bar bg-warning" role="progressbar" style="width: 78%;" aria-valuenow="78" aria-valuemin="0" aria-valuemax="100"></div>
+                            </div>
+                        </div>
+                        <div class="block-content">
+                            <h4 class="h5 text-muted mb-2">Audio</h4>
+                            <p class="h2 fw-bold mb-1">
+                                20GB
+                                <span class="fs-sm text-muted">of 1TB</span>
+                            </p>
+                            <div class="progress push" style="height: 5px;">
+                                <div class="progress-bar bg-success" role="progressbar" style="width: 2%;" aria-valuenow="2" aria-valuemin="0" aria-valuemax="100"></div>
+                            </div>
+                        </div>
                     </div>
                     <!-- END Storage Stats -->
                 </div>
