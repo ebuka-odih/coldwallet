@@ -15,4 +15,13 @@ class Fund extends Model
     {
         return $this->belongsTo(Coins::class);
     }
+
+    public function status()
+    {
+        if ($this->status == 1)
+        {
+            return "<span class='badge bg-success'>Successful</span>";
+        }
+        return "<span class='badge bg-warning'>Pending</span>";
+    }
 }
