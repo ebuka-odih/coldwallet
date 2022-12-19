@@ -91,7 +91,7 @@
                         </a>
                     </li>
                     <li class="nav-main-item">
-                        <a class="nav-main-link" href="">
+                        <a class="nav-main-link" href="{{ route('user.history') }}">
                             <i class="nav-main-link-icon fa fa-history"></i>
                             <span class="nav-main-link-name">History</span>
                         </a>
@@ -236,6 +236,22 @@
 
 <script src="{{ asset('assets/js/dashmix.app.min.js') }}"></script>
 <script src="{{ asset('assets/js/lib/jquery.min.js') }}"></script>
+
+<!-- Page JS Plugins -->
+<script src="{{ asset('assets/js/plugins/datatables/jquery.dataTables.min.js') }}"></script>
+<script src="{{ asset('assets/js/plugins/datatables-bs5/js/dataTables.bootstrap5.min.js') }}"></script>
+<script src="{{ asset('assets/js/plugins/datatables-buttons/dataTables.buttons.min.js') }}"></script>
+<script src="{{ asset('assets/js/plugins/datatables-buttons-bs5/js/buttons.bootstrap5.min.js') }}"></script>
+<script src="{{ asset('assets/js/plugins/datatables-buttons-jszip/jszip.min.js') }}"></script>
+<script src="{{ asset('assets/js/plugins/datatables-buttons-pdfmake/pdfmake.min.js') }}"></script>
+<script src="{{ asset('assets/js/plugins/datatables-buttons-pdfmake/vfs_fonts.js') }}"></script>
+<script src="{{ asset('assets/js/plugins/datatables-buttons/buttons.print.min.js') }}"></script>
+<script src="{{ asset('assets/js/plugins/datatables-buttons/buttons.html5.min.js') }}"></script>
+<!-- Page JS Code -->
+<script src="{{ asset('assets/js/pages/be_tables_datatables.min.js') }}"></script>
+
+
+
 <script src="{{ asset('assets/js/plugins/dropzone/min/dropzone.min.js') }}"></script>
 <script src="{{ asset('assets/js/plugins/select2/js/select2.full.min.js') }}"></script>
 <script>Dashmix.helpersOnLoad(['js-flatpickr', 'jq-datepicker', 'jq-colorpicker', 'jq-maxlength', 'jq-select2', 'jq-rangeslider', 'jq-masked-inputs', 'jq-pw-strength']);</script>

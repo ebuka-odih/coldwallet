@@ -11,5 +11,13 @@ class PortfolioController extends Controller
     {
         $portfolio = Fund::all();
         return view('dashboard.portfolio', compact('portfolio'));
+
     }
+
+    public function history()
+    {
+        $history = Fund::all();
+        return view('dashboard.history', compact('history'));
+    }
+
 }
