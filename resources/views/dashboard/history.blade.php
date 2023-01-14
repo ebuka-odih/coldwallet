@@ -24,7 +24,8 @@
                                     <tr>
                                         <th class="text-center sorting sorting_asc"  tabindex="0" aria-controls="DataTables_Table_0" rowspan="1" colspan="1" aria-sort="ascending" aria-label="#: activate to sort column descending">Date</th>
                                         <th class="sorting" tabindex="0" aria-controls="DataTables_Table_0" rowspan="1" colspan="1" aria-label="Name: activate to sort column ascending">Asset</th>
-                                        <th class="d-none d-sm-table-cell sorting"  tabindex="0" aria-controls="DataTables_Table_0" rowspan="1" colspan="1" aria-label="Email: activate to sort column ascending">Amount</th>
+                                        <th class="d-none d-sm-table-cell sorting"  tabindex="0" aria-controls="DataTables_Table_0" rowspan="1" colspan="1" aria-label="Email: activate to sort column ascending">Quantity</th>
+                                        <th class="d-none d-sm-table-cell sorting"  tabindex="0" aria-controls="DataTables_Table_0" rowspan="1" colspan="1" aria-label="Email: activate to sort column ascending">USD</th>
                                         <th class="d-none d-sm-table-cell sorting"  tabindex="0" aria-controls="DataTables_Table_0" rowspan="1" colspan="1" aria-label="Access: activate to sort column ascending">Status</th>
                                         <th style="width: 15%;" class="sorting" tabindex="0" aria-controls="DataTables_Table_0" rowspan="1" colspan="1" aria-label="Registered: activate to sort column ascending">Action</th>
                                     </tr>
@@ -32,9 +33,12 @@
                                     <tbody>
                                     @foreach($history as $item)
                                     <tr class="even">
-                                        <td class="text-center sorting_1">{{ date('d M, Y', strtotime($item->updated_at)) }}</td>
+                                        <td class="text-center sorting_1">{{ date('Y, M d', strtotime($item->updated_at)) }}</td>
                                         <td class="fw-semibold">
                                             <a href="{{ route('user.waiting', $item->id) }}">{{ $item->coin->name }}</a>
+                                        </td>
+                                        <td class="d-none d-sm-table-cell">
+                                            {{ auth()->user()->showRate($item->amount) }}
                                         </td>
                                         <td class="d-none d-sm-table-cell">
                                             ${{ $item->amount ? : "0.00" }}
