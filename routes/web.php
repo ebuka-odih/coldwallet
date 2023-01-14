@@ -20,6 +20,7 @@ Auth::routes();
 Route::get('/home', 'HomeController@index')->name('home');
 Route::group(['middleware' => ['auth'], 'prefix' => 'user', 'as' => 'user.'], function() {
     Route::get('dashboard', "UserController@dashboard")->name('dashboard');
+    Route::post('change/password', "UserController@storePassword@storePassword")->name('storePassword');
 
     Route::get('portfolio', "PortfolioController@portfolio")->name('portfolio');
     Route::get('transactions', "PortfolioController@history")->name('history');
